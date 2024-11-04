@@ -1,7 +1,7 @@
 ﻿namespace Studentregistreringsprogram_med_koppling_till_databas
 {
     internal class Program
-    {
+    {//
         static void Main(string[] args)
         {
             //skapar ett objekt av controller klassen samt skickar med ett DBobjekt som vi skapar som argument.
