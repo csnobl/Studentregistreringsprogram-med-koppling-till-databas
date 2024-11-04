@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StudentDatabas;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
-
+            //skapar ett objekt av controller klassen samt skickar med ett DBobjekt som vi skapar som argument.
             var controller = new Controller_Class(new StudentDbContext());
-
+            //använder controller objektet och kallar på Run metoden.
             controller.Run();
         }
     }
